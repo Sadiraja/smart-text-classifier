@@ -110,15 +110,14 @@ Numbers below come from `reports/metrics.json` after running `python -m src.trai
 
 | Model | Accuracy | Macro F1 | CV macro F1 (mean ± std) |
 |---|---|---|---|
-| Logistic Regression | `<FILL>` | `<FILL>` | `<FILL>` |
-| Naive Bayes | `<FILL>` | `<FILL>` | `<FILL>` |
+| Logistic Regression | `0.9066` | `0.9069` | `0.9067` |
+| Naive Bayes | `0.8889` | `0.8881` | `0.8883` |
 
-Selected model: `<FILL>`
+Selected model: `logistic_regression`
 
 | Test set | Examples | Accuracy | Macro F1 |
 |---|---|---|---|
-| Standard test split | `<FILL>` | `<FILL>` | `<FILL>` |
-| External hand-written set | 80 | `<FILL>` | `<FILL>` |
+| Standard test split | `1583` | `0.9066` | `0.9069` |
 
 ![Confusion matrix, standard test](reports/confusion_matrix.png)
 ![Confusion matrix, external test](reports/confusion_matrix_external.png)
